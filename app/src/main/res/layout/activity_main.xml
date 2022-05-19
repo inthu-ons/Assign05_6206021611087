@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="#673AB7"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Menu Application"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="398dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/btnTextSwitcher"
+            android:layout_width="375dp"
+            android:layout_height="66dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A686DF"
+            android:text="Text Switcher" />
+
+        <Button
+            android:id="@+id/btnImageSwitcher"
+            android:layout_width="376dp"
+            android:layout_height="63dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A686DF"
+            android:text="Image Switcher" />
+
+        <Button
+            android:id="@+id/btnAdaperViewFlipper"
+            android:layout_width="375dp"
+            android:layout_height="72dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A686DF"
+            android:text="Adaper View Flipper" />
+
+        <Button
+            android:id="@+id/btnStackView"
+            android:layout_width="375dp"
+            android:layout_height="66dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A686DF"
+            android:text="Stack View" />
+
+        <Button
+            android:id="@+id/btnScrollView"
+            android:layout_width="381dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A686DF"
+            android:text="scroll view" />
+    </LinearLayout>
+
+</LinearLayout>
